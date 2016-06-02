@@ -1,7 +1,5 @@
-body {
-  background-color: red;
+@import './partials/reset';
+@import './partials/desktop/landing.scss';
+@import './partials/desktop/languages.scss';
+@import './partials/desktop/portfolio.scss';
 
-  h1 {
-    color: purple;
-  }
-}
