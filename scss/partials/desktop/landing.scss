@@ -30,9 +30,18 @@
     width: 100%;
     position: fixed;
     bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      color: white;
+      margin: 15px;
+    }
   }
 
-  #landing {
+  #home {
     background: url(laptop.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
