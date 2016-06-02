@@ -1,0 +1,25 @@
+{
+  "name": "digital-cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owen28299/digital-cv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owen28299/digital-cv/issues"
+  },
+  "homepage": "https://github.com/owen28299/digital-cv#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.10",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
+  }
+}
