@@ -1,8 +1,69 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 850px) {
   #languages {
-    background-color: hsl(200,100%,90%);
-    height: 945px;
+    height: 1200px;
     width: 100%;
+    text-align: center;
+
+    h1 {
+      padding-top: 60px;
+      padding-bottom: 20px;
+      font-size: 40px;
+    }
+
+    h2 {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      font-size: 30px;
+      font-weight: bold;
+      color: hsl(200,100%,15%);
+      text-decoration: underline;
+    }
+
+    img {
+      height: 75px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    #front-end {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      margin-left: 5%;
+
+      #angular {
+        height: 90px;
+        margin-bottom: 0px;
+      }
+
+      #js {
+        height: 80px;
+      }
+
+    }
+
+    #server-side, #dev-tools {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      margin-left: 5%;
+    }
+
+    #database {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      margin-left: 15%;
+    }
+
   }
 
 
