@@ -1,8 +1,31 @@
 @media screen and (min-width: 600px) {
   #portfolio {
-    background-color: hsl(150,100%,90%);
-    height: 945px;
+    background-color: hsl(200,100%,90%);
+    height: 1500px;
     width: 100%;
+    text-align: center;
+
+    h1 {
+      padding-top: 60px;
+      padding-bottom: 20px;
+      font-size: 40px;
+    }
+
+    #portfolio-items {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+
+      article {
+        width: 350px;
+        height: 350px;
+        border: 1px solid black;
+        margin: 20px;
+      }
+    }
+
+
   }
 
 

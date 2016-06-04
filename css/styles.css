@@ -155,7 +155,7 @@ table {
         margin-bottom: 0px; }
       #languages #front-end #js {
         height: 80px; }
-    #languages #server-side, #languages #dev-tools {
+    #languages #server-side {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -168,13 +168,35 @@ table {
       justify-content: center;
       align-items: center;
       width: 70%;
-      margin-left: 15%; } }
+      margin-left: 15%; }
+    #languages #dev-tools {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      margin-left: 10%; } }
 
 @media screen and (min-width: 600px) {
   #portfolio {
-    background-color: #ccffe6;
-    height: 945px;
-    width: 100%; } }
+    background-color: #cceeff;
+    height: 1500px;
+    width: 100%;
+    text-align: center; }
+    #portfolio h1 {
+      padding-top: 60px;
+      padding-bottom: 20px;
+      font-size: 40px; }
+    #portfolio #portfolio-items {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center; }
+      #portfolio #portfolio-items article {
+        width: 350px;
+        height: 350px;
+        border: 1px solid black;
+        margin: 20px; } }
 
 html {
   font-family: 'Raleway', sans-serif; }
