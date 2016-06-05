@@ -1,9 +1,16 @@
 @import './partials/reset';
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
+@import './partials/mobile/landing.scss';
+@import './partials/mobile/languages.scss';
+@import './partials/mobile/portfolio.scss';
+
 @import './partials/desktop/landing.scss';
 @import './partials/desktop/languages.scss';
 @import './partials/desktop/portfolio.scss';
+
+@import './partials/large/languages.scss';
+@import './partials/large/portfolio.scss';
 
 html {
   font-family: 'Raleway', sans-serif;

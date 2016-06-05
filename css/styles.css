@@ -46,6 +46,173 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@media screen and (max-width: 850px) {
+  #header {
+    background-color: #00334d;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0; }
+    #header ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%; }
+    #header li {
+      color: white;
+      margin: 20px; }
+      #header li a {
+        text-decoration: none;
+        color: white; }
+  #footer {
+    background-color: #00334d;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #footer p {
+      color: white;
+      margin: 15px; }
+  #home {
+    background: url(/css/laptop.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    #home h1 {
+      color: white;
+      font-size: 40px;
+      background-color: rgba(0, 34, 51, 0.3);
+      margin-bottom: 10px;
+      padding: 10px; }
+    #home h2 {
+      color: white;
+      font-size: 30px;
+      background-color: rgba(0, 34, 51, 0.3);
+      padding: 10px;
+      margin-bottom: 20px;
+      text-align: center;
+      width: 70%; }
+    #home #social {
+      display: flex;
+      justify-content: space-around;
+      width: 350px; }
+      #home #social .button {
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 12px;
+        padding: 5px;
+        display: flex;
+        align-items: center; }
+        #home #social .button a {
+          font-size: 30px;
+          color: #002233;
+          text-decoration: none; }
+        #home #social .button a:hover {
+          color: #0088cc; }
+        #home #social .button img {
+          height: 25px;
+          margin-right: 5px; } }
+
+@media screen and (max-width: 850px) {
+  #languages {
+    height: 1200px;
+    width: 100%;
+    text-align: center; }
+    #languages h1 {
+      padding-top: 60px;
+      padding-bottom: 20px;
+      font-size: 40px; }
+    #languages h2 {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      font-size: 30px;
+      font-weight: bold;
+      color: #00334d;
+      text-decoration: underline; }
+    #languages img {
+      height: 75px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    #languages #front-end {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      margin-left: 5%; }
+      #languages #front-end #angular {
+        height: 90px;
+        margin-bottom: 0px; }
+      #languages #front-end #js {
+        height: 80px; }
+    #languages #server-side {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      margin-left: 5%; }
+    #languages #database {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      margin-left: 15%; }
+    #languages #dev-tools {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      margin-left: 10%; } }
+
+@media screen and (max-width: 850px) {
+  #portfolio {
+    background-color: #cceeff;
+    height: 1500px;
+    width: 100%;
+    text-align: center; }
+    #portfolio h1 {
+      padding-top: 60px;
+      padding-bottom: 20px;
+      font-size: 40px; }
+    #portfolio #portfolio-items {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center; }
+      #portfolio #portfolio-items article {
+        width: 350px;
+        height: 400px;
+        margin: 20px; }
+        #portfolio #portfolio-items article h4 {
+          font-size: 20px;
+          color: #002233;
+          font-weight: bold;
+          margin-bottom: 10px; }
+        #portfolio #portfolio-items article p {
+          font-style: italic;
+          height: 50px; }
+        #portfolio #portfolio-items article img {
+          width: 340px;
+          height: 290px;
+          margin-top: 10px;
+          border: 1px;
+          border-radius: 8px; } }
+
 @media screen and (min-width: 850px) {
   #header {
     background-color: #00334d;
@@ -121,7 +288,7 @@ table {
           height: 25px;
           margin-right: 5px; } }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 850px) and (max-width: 1500px) {
   #languages {
     height: 1200px;
     width: 100%;
@@ -132,6 +299,96 @@ table {
       font-size: 40px; }
     #languages h2 {
       padding-top: 30px;
+      padding-bottom: 30px;
+      font-size: 30px;
+      font-weight: bold;
+      color: #00334d;
+      text-decoration: underline; }
+    #languages img {
+      height: 75px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    #languages #front-end {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      margin-left: 5%; }
+      #languages #front-end #angular {
+        height: 90px;
+        margin-bottom: 0px; }
+      #languages #front-end #js {
+        height: 80px; }
+    #languages #server-side {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      margin-left: 5%; }
+    #languages #database {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      margin-left: 15%; }
+    #languages #dev-tools {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      margin-left: 10%; } }
+
+@media screen and (min-width: 850px) {
+  #portfolio {
+    background-color: #cceeff;
+    height: 1500px;
+    width: 100%;
+    text-align: center; }
+    #portfolio h1 {
+      padding-top: 60px;
+      padding-bottom: 20px;
+      font-size: 40px; }
+    #portfolio #portfolio-items {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center; }
+      #portfolio #portfolio-items article {
+        width: 350px;
+        height: 400px;
+        margin: 20px; }
+        #portfolio #portfolio-items article h4 {
+          font-size: 20px;
+          color: #002233;
+          font-weight: bold;
+          margin-bottom: 10px; }
+        #portfolio #portfolio-items article p {
+          font-style: italic;
+          height: 50px; }
+        #portfolio #portfolio-items article img {
+          width: 340px;
+          height: 290px;
+          margin-top: 10px;
+          border: 1px;
+          border-radius: 8px; } }
+
+@media screen and (min-width: 1500px) {
+  #languages {
+    height: 1000px;
+    width: 100%;
+    text-align: center; }
+    #languages h1 {
+      padding-top: 60px;
+      padding-bottom: 15px;
+      font-size: 40px; }
+    #languages h2 {
+      padding-top: 40px;
       padding-bottom: 30px;
       font-size: 30px;
       font-weight: bold;
