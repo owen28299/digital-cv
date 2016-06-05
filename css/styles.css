@@ -344,7 +344,7 @@ table {
       width: 80%;
       margin-left: 10%; } }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 850px) and (max-width: 1200px) {
   #portfolio {
     background-color: #ecf4f9;
     height: 1500px;
@@ -434,10 +434,10 @@ table {
       width: 80%;
       margin-left: 10%; } }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1200px) {
   #portfolio {
     background-color: #ecf4f9;
-    height: 1500px;
+    height: 1200px;
     width: 100%;
     text-align: center; }
     #portfolio h1 {
