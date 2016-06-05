@@ -19,9 +19,30 @@
 
       article {
         width: 350px;
-        height: 350px;
-        border: 1px solid black;
+        height: 400px;
+
         margin: 20px;
+
+        h4 {
+          font-size: 20px;
+          color: hsl(200,100%,10%);
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-style: italic;
+          height: 50px;
+        }
+
+        img {
+          width: 340px;
+          height: 290px;
+          margin-top: 10px;
+          border: 1px;
+          border-radius: 8px;
+        }
+
       }
     }
 
